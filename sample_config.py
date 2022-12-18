@@ -13,19 +13,19 @@ class Config(object):
     LOGGER = True
     # MUST NEEDED VARS
     # set this value with your name
-    ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+    ALIVE_NAME = os.environ.get("admin userbot", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = int(os.environ.get("26840920", 6))
+    API_HASH = os.environ.get("a90d0f9cc34e615788366636930254b2") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
+    DB_URI = os.environ.get("mongodb+srv://bssamfor4:<password>@cluster0.wqzjo7d.mongodb.net/?retryWrites=true&w=majority", None)
     # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    STRING_SESSION = os.environ.get("1AZWarzMBux4RelJpW0efJQz1Uc6DUgItweduGdNoHi1UDTF9e4058INxt5mAnc_Xz5Uk0mPr1K_io2qFWOerQr68VaDK8l_8Z4d869ba7SrTkReLLFRFWVCIRjDdpdEmP1xAbwPd31EKl2GBOPyNqkka4zkYthSdce6TkwWqQPVaxrQKgJS0O0kgZChfHccWjiXhUbYPOVNPh2GVI8PfcX7r9m6vp2h36km1UiOAxElXKQcq_axhMg3x1JZ32SvoPWWV-vO-Ob9uBBOZFfIKHwo4SSdE5f9VPK32h7DerUECu3JShIhmiJBTMyKum3HfmSjZNnAmAkTFotPdkzUpUNmEhiImG38=", None)
     # Telegram BOT Token and bot username from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
+    TG_BOT_TOKEN = os.environ.get("5899569852:AAEzpgZZu4hq4Kp18N6M7YuHKTNg4Q0KMVE") or os.environ.get(
         "TG_BOT_TOKEN_BF_HER", None
     )
-    TG_BOT_USERNAME = None
+    TG_BOT_USERNAME = @userbotkonms_bot
     # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
@@ -49,11 +49,11 @@ class Config(object):
     # BASIC and MAIN CONFIG VARS
     # for profile default name
     # Set this value with group id of private group(can be found this value by .id)
-    PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID") or 0)
+    PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("-1001895007094") or 0)
     # Set this value same as PRIVATE_GROUP_BOT_API_ID if you need pmgaurd
-    PRIVATE_GROUP_ID = int(os.environ.get("PRIVATE_GROUP_ID") or 0)
+    PRIVATE_GROUP_ID = int(os.environ.get("-1001895007094") or 0)
     # Set this value for working of fban/unfban/superfban/superunfban cmd
-    FBAN_GROUP_ID = int(os.environ.get("FBAN_GROUP_ID") or 0)
+    FBAN_GROUP_ID = int(os.environ.get("-1001895007094") or 0)
     # set this value with channel id of private channel use full for .frwd cmd
     PRIVATE_CHANNEL_BOT_API_ID = int(os.environ.get("PRIVATE_CHANNEL_BOT_API_ID") or 0)
     # for heroku plugin you can get this value from https://dashboard.heroku.com/account
@@ -61,11 +61,11 @@ class Config(object):
     # set this with same app name you given for heroku
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     # Owner id to show profile link of given id as owner
-    OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
+    OWNER_ID = int(os.environ.get("5201596329") or 0)
     # set this with group id so it keeps notifying about your tagged messages or pms
     PM_LOGGER_GROUP_ID = int(
-        os.environ.get("PM_LOGGER_GROUP_ID")
-        or os.environ.get("PM_LOGGR_BOT_API_ID")
+        os.environ.get("-1001895007094")
+        or os.environ.get("-1001895007094")
         or 0
     )
 
